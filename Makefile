@@ -5,5 +5,4 @@ all:
 	make ex3
 
 clean:
-	ls | grep -vE  "*.c|Makefile*" | xargs rm
-
+	ls | egrep -v  "*.c|Makefile|README.md" | xargs rm
