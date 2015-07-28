@@ -48,7 +48,6 @@ int main(int argc, char *argv[])
             another[0], another[1],
             another[2], another[3]);
 
-    printf("This is names as numbers %d", (int) another);
     return 0;
 }
 
