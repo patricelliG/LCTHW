@@ -3,7 +3,7 @@ CFLAGS=-Wall -g
 all:
 	make ex1 
 	# Skip ex2
-	make ex{3..15}
+	make ex{3..17}
 
 clean:
-	ls | egrep -v  "*.c|Makefile|README.md" | xargs rm
+	ls | egrep -v "*\.c|Makefile|README.md|tb*" | xargs rm
